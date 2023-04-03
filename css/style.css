@@ -1,0 +1,160 @@
+/* Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(0, 0, 0);
+    border-bottom: 3px solid #3EC1D5;
+}
+
+.row {
+    margin: 0;
+
+}
+
+.container {
+    padding: 70px 0;
+    background: #000000;
+
+}
+
+/* Barra de navegação */
+header,
+.navbar {
+    background-color: #000000;
+    height: 150px;
+    border-bottom: 3px solid #3EC1D5;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+#logo {
+    width: 75px;
+    margin-left: 640px;
+
+}
+
+p {
+    position: absolute;
+    font-size: 32px;
+    left: 610px;
+    top: 100px;
+}
+
+/* Footer */
+
+#contact-area {
+
+    text-align: center;
+    color: #65DAF9;
+}
+
+.contact-box {
+
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+}
+
+.contact-box i {
+
+    color: #65DAF9;
+    border: solid 3px #65DAF9;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+    margin-bottom: 10px;
+
+}
+
+
+.contact-tile {
+    font-weight: bold;
+    color: #3EC1D5;
+
+}
+
+/* Copy Register*/
+
+#copy-area {
+
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #3EC1D5;
+    left: 120%;
+
+}
+
+/* responsive */
+@media(max-width: 768px) {
+
+    /* geral */
+    .container {
+        padding: 20px 0;
+
+    }
+
+
+    #call-area {
+        margin-top: 30px;
+
+    }
+
+
+}
+
+
+@media(max-width: 425px) {
+
+
+    #call-area p,
+    #call-area #call-btn {
+        font-size: 24px;
+        letter-spacing: 0;
+
+    }
+
+
+    /* contact */
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+
+    }
+
+}
+
+
+#email2 {
+
+
+    position: absolute;
+    font-size: 20px;
+    left: 460px;
+    top: 50px;
+
+}
